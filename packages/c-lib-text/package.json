@@ -5,12 +5,15 @@
   "keywords": [],
   "author": "OhJia <ohjia@Jiashans-MacBook-Pro.local>",
   "license": "ISC",
-  "main": "lib/c-lib-text.js",
+  "src": "lib/c-lib-text.js",
+  "main": "dist/c-lib-text.cjs.js",
+  "module": "dist/c-lib-text.esm.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
   },
   "files": [
+    "dist",
     "lib"
   ],
   "publishConfig": {
